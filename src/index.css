@@ -1,0 +1,157 @@
+body,
+h1,
+h2,
+ul,
+p {
+  padding: 0;
+  margin: 0;
+}
+p,
+h2,
+li {
+  font-family: "quinn-text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+p {
+  padding: 5px;
+}
+.about-section p,
+.nav-list {
+  text-shadow: rgb(255, 236, 162) 1px 0 10px;
+}
+.homepage {
+  height: 100vh;
+  width: 100vw;
+}
+body {
+  position: relative;
+  text-decoration: none;
+  background-image: url(src/assets/IMG_9237.jpg);
+  background-color: rgb(79, 79, 79);
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cursive {
+  font-family: "sheila", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: rgb(255, 214, 109);
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: +1;
+}
+h2 {
+  text-align: center;
+  padding-bottom: 5px;
+}
+.nav-list {
+  background-image: url(src/assets/IMG_9888.jpg);
+  background-size: cover;
+  position: fixed;
+  width: 150px;
+  margin: 15px;
+  padding: 10px;
+  height: 125px;
+  text-align: center;
+  align-items: center;
+  list-style: none;
+  font-size: large;
+  top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+li {
+  padding: 5px;
+}
+.nav-button:hover {
+  color: rgb(255, 225, 57);
+  transform: translate(4px 0);
+}
+.nav-button {
+  color: white;
+}
+.section-flex {
+  display: flex;
+}
+.about-section {
+  margin: 20px;
+  width: 30%;
+  padding: 10px;
+  margin-top: 200px;
+  overflow-y: scroll;
+  height: 40%;
+  margin-left: 100px;
+  position: relative;
+  color: white;
+  background-image: url(src/assets/IMG_9201.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ul {
+  list-style: none;
+}
+.equipment-section {
+  text-shadow: white 0 0 10px;
+  background-image: url("src/assets/IMG_9500.jpg");
+  margin: 30px;
+  padding: 10px;
+
+  height: 200px;
+  width: 90%;
+  margin-top: 250px;
+  background-size: cover;
+  overflow-y: scroll;
+  color: white;
+  text-shadow: white, 1px, 0px, 10px;
+}
+
+.contact-section {
+  padding: 20px;
+  margin: 20px;
+  width: 100%;
+  background-image: url(src/assets/IMG_9045-2.jpg);
+  background-repeat: none;
+  background-size: cover;
+  color: black;
+}
+a {
+  text-decoration: none;
+}
+.contact-section ul li {
+  color: rgb(0, 0, 0);
+  list-style: none;
+}
+.collumn-flex {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+@media (min-width: 700px) {
+  body {
+    background-image: url(src/assets/IMG_9237.jpg);
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  .about-section {
+    width: 40%;
+    height: 500px;
+    margin-right: 10px;
+    margin-top: 75px;
+  }
+  .contact-section {
+    width: 100%;
+    margin: 20px;
+    bottom: -20px;
+  }
+}
