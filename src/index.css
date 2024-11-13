@@ -17,6 +17,7 @@ p {
   padding: 5px;
 }
 .about-section p,
+.about-section h2,
 .nav-list {
   text-shadow: rgb(255, 236, 162) 1px 0 10px;
 }
@@ -27,7 +28,7 @@ p {
 body {
   position: relative;
   text-decoration: none;
-  background-image: url(assets/IMG_9237.jpg);
+  background-image: url("../assets/IMG_9231-3.jpg");
   background-color: rgb(79, 79, 79);
   width: 100vw;
   height: 100vh;
@@ -53,7 +54,7 @@ h2 {
   padding-bottom: 5px;
 }
 .nav-list {
-  background-image: url(assets/IMG_9888.jpg);
+  background-image: url(../assets/IMG_9888-2.jpg);
   background-size: cover;
   position: fixed;
   width: 150px;
@@ -93,7 +94,7 @@ li {
   margin-left: 100px;
   position: relative;
   color: white;
-  background-image: url(assets/IMG_9201.jpg);
+  background-image: url(../assets/IMG_9201-2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -102,7 +103,7 @@ ul {
 }
 .equipment-section {
   text-shadow: white 0 0 10px;
-  background-image: url("assets/IMG_9500.jpg");
+  background-image: url(../assets/IMG_9500-2.jpg);
   margin: 30px;
   padding: 10px;
 
@@ -119,7 +120,7 @@ ul {
   padding: 20px;
   margin: 20px;
   width: 100%;
-  background-image: url(assets/IMG_9045.JPG);
+  background-image: url(../assets/IMG_9045-2.jpg);
   background-repeat: none;
   background-size: cover;
   color: black;
@@ -138,7 +139,7 @@ a {
 }
 @media (min-width: 700px) {
   body {
-    background-image: url(assets/IMG_9237.jpg);
+    background-image: url(../assets/IMG_9231-3.jpg);
   }
 }
 
